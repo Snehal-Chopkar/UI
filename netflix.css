@@ -1,0 +1,260 @@
+*
+{
+    font-family: sans-serif;
+    color: white;
+}
+/* 1st page */
+.background
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)),
+        url(https://assets.nflxext.com/ffe/siteui/vlv3/563192ea-ac0e-4906-a865-ba9899ffafad/665d464c-ac3f-40f4-979d-d8b2f2329b58/JP-en-20231218-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+
+/* 1st page header */
+.nav
+{
+    padding: 0px 200px 50px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+select
+{
+    background-color: black;
+    border-color: rgb(178, 167, 167);
+    border-radius: 5px;
+    padding: 3px 10px 3px 10px;
+    text-align: center;
+}
+button
+{
+    border-radius: 5px;
+    background-color: red;
+    border-color: red;
+}
+.nav button 
+{
+    margin-left: 20px;
+    padding: 3px 12px 3px 12px;
+}
+.nav img
+{
+    width: 200px;
+    height: 110px;
+}
+
+/* 1st page section */
+.b
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px 80px 70px 80px;
+    box-sizing: border-box;
+    position: relative;
+}
+.p1 , .p7
+{
+    font-size: 55px;
+    font-weight: 900;
+}
+.p2 , .p8 
+{
+    font-size: 26px;
+}
+.p3 , .p4 , .list
+{
+    font-size: larger;
+}
+#email
+{
+    background-color: black;
+    border-color: rgb(178, 167, 167);
+    border-radius: 5px;
+    padding: 15px 110px 15px 15px;
+}
+.b button
+{
+    padding: 10px 50px 10px 50px;
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+/* Second Page */
+.secondPage img
+{
+    width: 100px;
+    height: 80px;
+    border-radius: 50px;
+    box-shadow: 0 0 8px #febb57;
+}
+.d
+{
+    padding-left: 10px;
+}
+.secondPage
+{
+    position: relative;
+    background: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100% );
+    padding: 0px 200px 0px 200px;
+}
+.c
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+    padding: 20px 20px;
+}
+
+/* 2nd content */
+.secondContent
+{
+    position: relative;
+    padding: 100px 0px;
+    background-color: black;
+}
+
+.e
+{
+    padding: 0px 100px;
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+.seperate
+{
+     width: 100%;
+     height: 0.5rem;
+     position: relative;
+     background-color: rgb(35,35,35);
+
+}
+/* Third Page */
+.thirdPage
+{
+    position: relative;
+    padding: 100px 0px;
+    background-color: black;
+}
+
+/* last page */
+.lastPage
+{
+    padding: 100px 0px;
+    background-color: black;
+}
+.flex
+{
+    display: flex;
+    padding: 0px 100px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;   
+}
+.list
+{
+    width: 100%;
+    text-align: left;
+    padding: 50px 0;
+}
+.lastPage ul li
+{
+    text-align: left;
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(57, 56, 56);
+}
+.lastPage ul li:hover
+{
+    background-color:rgb(82, 80, 80) ;
+}
+
+/* Queries */
+.padding
+{
+    padding: 50px 100px;
+    background-color: black;
+    color: rgb(178, 167, 167);
+}
+.padding a
+{
+    color: rgb(178, 167, 167);
+    padding-bottom: 10px;
+}
+.flexcol
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+    padding: 10px;
+}
+.flexrow
+{
+    display: flex;
+    flex: row;
+    text-align: left;
+    justify-content: space-around;
+}
+.button
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width : 576px)
+{
+    .e
+    {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .flexrow
+    {
+        flex-direction: column;
+    }
+    .nav
+    {
+        padding: 0px 10px 0px 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+@media(max-width : 1100px)
+{
+    .e
+    {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+       
+
+
+
+
